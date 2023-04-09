@@ -134,15 +134,26 @@ header {
   width: 30px;
   display: inline-block;
 }
-.getStart{
-    margin-top: 20px;
-    display: block;
+.getStart {
+  margin-top: 20px;
+  display: block;
 }
-.email{
-    hint
+.email {
+  display: block;
+  margin: 10px;
+  width: 250px;
+}
+.getstartBtm {
+  display: block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(34, 210, 34);
+  color: white;
 }
 .pcImg {
+  display: block;
   width: 70%;
+  margin: 20px auto;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
