@@ -106,7 +106,15 @@ header {
   border: 0;
 }
 
-/* section 1 */
+/* general bg color */
+.bg_color {
+  background-color: rgb(51, 144, 237);
+}
+._color {
+    color: rgb(51, 144, 237);
+    border-color:  rgb(51, 144, 237);
+  }
+  /* section 1 */
 
 .section_1 {
   position: relative;
@@ -118,7 +126,6 @@ header {
   flex-direction: column;
 }
 .title {
-  color: rgb(34, 210, 34);
   font-size: 1.8rem;
 }
 .info h3 {
@@ -148,7 +155,6 @@ header {
   display: block;
   margin: 10px;
   padding: 10px 20px;
-  background-color: rgb(34, 210, 34);
   color: white;
 }
 .pcImg {
@@ -160,7 +166,7 @@ header {
 .seb {
   position: relative;
   top: 80px;
-  border: rgb(34, 210, 34) 3px solid;
+  border:  3px solid;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -197,7 +203,6 @@ header {
     color: black;
   }
   .login_btn {
-    background-color: rgb(34, 210, 34);
     color: white;
     padding: 5px 10px;
     border: 1px gray solid;
@@ -266,7 +271,6 @@ header {
     color: black;
   }
   .login_btn {
-    background-color: rgb(34, 210, 34);
     color: white;
     padding: 5px 10px;
     border: 1px gray solid;
