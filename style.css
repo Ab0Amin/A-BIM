@@ -1,0 +1,84 @@
+* {
+  /* border: 1px red solid; */
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  
+}
+header {
+  position: sticky;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.logoName {
+}
+.logoCon {
+  display: flex;
+}
+.logo {
+  background-image: url("/assets/logo.png");
+  width: 70px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header_left {
+  position: relative;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.itemSize{
+    width: 25%;
+}
+.header_left a {
+  text-decoration: none;
+  color: black;
+}
+.languages_flags{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+}
+.lang_img  {
+height: 50%;
+width: 50%;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 0;
+    height: 100%;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .login_btn{
+    background-color: rgb(34, 210, 34);
+    color: white;
+    padding: 5px 10px;
+  }
+  .login_btn:hover {
+    background-color:#7a7a7a;
+    transition: 0.7s;
+    padding: 7px 15px;
+
+}
