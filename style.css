@@ -20,6 +20,12 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.head_bg_color{
+    /* background-color: #e2f1ff; */
+    z-index: 20;
+  }
+
 .logoName {
 }
 .logoCon {
@@ -27,7 +33,7 @@ header {
   height: 100%;
 }
 .logo {
-  background-image: url("/assets/logo.png");
+  background-image: url("/assets/logo.png") ;
   width: 70px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -198,6 +204,7 @@ header {
     margin: 20px auto;
   }
   
+
 
 
 
