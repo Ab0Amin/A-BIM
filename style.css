@@ -24,11 +24,11 @@ header {
 }
 .logoCon {
   display: flex;
+  height: 100%;
 }
 .logo {
   background-image: url("/assets/logo.png");
   width: 70px;
-  height: 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -104,6 +104,45 @@ header {
   color: white;
   padding: 5px 10px;
   border: 0;
+}
+
+/* section 1 */
+
+.section_1 {
+  position: absolute;
+  top: 80px;
+  margin: 20px;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+.title {
+  color: rgb(34, 210, 34);
+  font-size: 1.8rem;
+}
+.info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.info_img {
+  width: 30px;
+  display: inline-block;
+}
+.getStart{
+    margin-top: 20px;
+    display: block;
+}
+.email{
+    hint
+}
+.pcImg {
+  width: 70%;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
