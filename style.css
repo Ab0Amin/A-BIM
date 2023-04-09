@@ -123,7 +123,8 @@ header {
   }
   body {
     width: 1000px;
-  }
+margin: 10px auto;  
+}
   header {
     width: 1000px;
   }
