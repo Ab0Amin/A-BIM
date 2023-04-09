@@ -109,12 +109,13 @@ header {
 /* section 1 */
 
 .section_1 {
-  position: absolute;
+  position: relative;
   top: 80px;
   margin: 20px;
   display: flex;
   text-align: left;
   justify-content: center;
+  flex-direction: column;
 }
 .title {
   color: rgb(34, 210, 34);
@@ -152,8 +153,14 @@ header {
 }
 .pcImg {
   display: block;
-  width: 70%;
+  width: 200px;
   margin: 20px auto;
+}
+
+.seb {
+  position: relative;
+  top: 80px;
+  border: rgb(34, 210, 34) 3px solid;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -200,6 +207,31 @@ header {
     transition: 0.7s;
     padding: 7px 15px;
   }
+
+  /* section 1 */
+
+  .section_1 {
+    text-align: left;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .getStart {
+    display: inline-block;
+  }
+  .email {
+    display: inline-block;
+    width: 220px;
+  }
+  .getstartBtm {
+    display: inline-block;
+  }
+  .pcImg {
+    display: block;
+    width: 300px;
+    margin-left: 50px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -244,4 +276,5 @@ header {
     transition: 0.7s;
     padding: 7px 15px;
   }
+ 
 }
