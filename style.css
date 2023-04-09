@@ -236,8 +236,8 @@ header {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  body {
-    width: 1000px;
+  .destopView {
+    width: 1200px;
     margin: 10px auto;
   }
   header {
@@ -276,5 +276,6 @@ header {
     transition: 0.7s;
     padding: 7px 15px;
   }
- 
+  .seb {
+  }
 }
