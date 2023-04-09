@@ -188,13 +188,13 @@ header {
     display: flex;
     text-align: left;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   
   
   .BIMST_Img {
     display: block;
-    width: 200px;
+    width: 250px;
     margin: 20px auto;
   }
   
