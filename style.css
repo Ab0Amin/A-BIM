@@ -64,13 +64,15 @@ header {
   gap: 30px;
   /* height: 60%; */
   width: 0;
-  background-color: rgb(2, 1, 1);
+  background-color: rgb(51, 144, 237);
   overflow-x: hidden;
   transition: 0.5s;
   color: azure;
   font-size: larger;
   padding: 0;
   z-index: 11;
+  position: fixed;
+  right: 0;
 }
 .itemSize {
   width: 25%;
@@ -232,8 +234,57 @@ footer {
 .dow_img {
   width: 150px;
 }
+
+/* mobile APP */
+.mobileApp {
+  position: relative;
+  top: 80px;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.images5 {
+ 
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth; 
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 20px;
+  margin-top: 60px;
+}
+.img {
+  
+  width: 250px; 
+  height: auto; 
+  scroll-snap-align: center; 
+}
+
+.img:hover {
+  /* width: 800px; */
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    
+.images5 {
+ 
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth; 
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+  }
+  .img {
+    
+    width: 450px; 
+    height: auto; 
+    scroll-snap-align: center; 
+  }
+  
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -260,6 +311,7 @@ footer {
     padding: 0;
     margin: 0;
     z-index: 11;
+    position: relative;
   }
 
   .header_left a {
@@ -329,9 +381,9 @@ footer {
     flex-direction: row;
     justify-content: center;
   }
-  .fotText{
-width: 500px;
-}
+  .fotText {
+    width: 500px;
+  }
   .div2 {
     margin: 20px;
     display: flex;
@@ -344,16 +396,35 @@ width: 500px;
   .li_mrg {
     margin-bottom: 10px;
   }
-  
-  .div2 ul{
-    padding: 20px;
 
+  .div2 ul {
+    padding: 20px;
   }
   .dow_img {
     width: 150px;
     display: block;
     margin-right: 100px;
     margin-left: 150px;
+  }
+  
+.images5 {
+ 
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth; 
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+  }
+  .img {
+    
+    width: 450px; 
+    height: auto; 
+    scroll-snap-align: center; 
+  }
+  
+  .img:hover {
+    width: 700px;
   }
 }
 
@@ -398,6 +469,8 @@ width: 500px;
     transition: 0.7s;
     padding: 7px 15px;
   }
-  .seb {
+  
+  .img:hover {
+    width: 900px;
   }
 }
