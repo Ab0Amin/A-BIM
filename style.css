@@ -21,10 +21,10 @@ header {
   flex-wrap: wrap;
 }
 
-.head_bg_color{
-    /* background-color: #e2f1ff; */
-    z-index: 20;
-  }
+.head_bg_color {
+  /* background-color: #e2f1ff; */
+  z-index: 20;
+}
 
 .logoName {
 }
@@ -33,7 +33,7 @@ header {
   height: 100%;
 }
 .logo {
-  background-image: url("/assets/logo.png") ;
+  background-image: url("/assets/logo.png");
   width: 70px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -117,10 +117,10 @@ header {
   background-color: rgb(51, 144, 237);
 }
 ._color {
-    color: rgb(51, 144, 237);
-    border-color:  rgb(51, 144, 237);
-  }
-  /* section 1 */
+  color: rgb(51, 144, 237);
+  border-color: rgb(51, 144, 237);
+}
+/* section 1 */
 
 .section_1 {
   position: relative;
@@ -131,13 +131,10 @@ header {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 80px;
-  
-
 }
 
 .title {
   font-size: 1.8rem;
-
 }
 .info h3 {
   margin-top: 0;
@@ -178,36 +175,63 @@ header {
 .seb {
   position: relative;
   top: 80px;
-  border:  3px solid;
+  border: 3px solid;
 }
 
-.mrg_bt{
-    margin-bottom: 50px;
+.mrg_bt {
+  margin-bottom: 50px;
 }
 
- /* section 2*/
+/* section 2*/
 
- .section_2 {
-    position: relative;
-    top: 80px;
-    margin: 20px;
-    display: flex;
-    text-align: left;
-    justify-content: center;
-    flex-direction: column-reverse;
-  }
-  
-  
-  .BIMST_Img {
-    display: block;
-    width: 250px;
-    margin: 20px auto;
-  }
-  
+.section_2 {
+  position: relative;
+  top: 80px;
+  margin: 20px;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
 
+.BIMST_Img {
+  display: block;
+  width: 250px;
+  margin: 20px auto;
+}
 
+/* footer */
 
-
+footer {
+  background-color: #323232;
+  position: relative;
+  top: 80px;
+  margin: 0;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  border-top: rgb(51, 144, 237) 6px solid;
+  color: white;
+  padding-top: 50px;
+}
+.div1 {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.div2 {
+  margin: 20px;
+}
+.div2 a {
+  color: white;
+}
+.li_mrg {
+  margin-bottom: 10px;
+}
+.dow_img {
+  width: 150px;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 }
@@ -277,10 +301,9 @@ header {
     margin-left: 50px;
   }
 
-  
- /* section 2*/
+  /* section 2*/
 
- .section_2 {
+  .section_2 {
     text-align: left;
     justify-content: center;
     flex-direction: row-reverse;
@@ -288,19 +311,50 @@ header {
     padding-top: 150px;
     padding-bottom: 150px;
   }
-  
-  
+
   .BIMST_Img {
     display: block;
     width: 350px;
     margin-right: 50px;
   }
-  .section_2 p{
+  .section_2 p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+  }
 
+  /* footer */
+  .div1 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .fotText{
+width: 500px;
+}
+  .div2 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .div2 a {
+    color: white;
+  }
+  .li_mrg {
+    margin-bottom: 10px;
   }
   
+  .div2 ul{
+    padding: 20px;
+
+  }
+  .dow_img {
+    width: 150px;
+    display: block;
+    margin-right: 100px;
+    margin-left: 150px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
